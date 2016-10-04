@@ -2,7 +2,7 @@
 <launch>
 
   <!-- Startup the apriltag identification node -->
-  <include file="$(find apriltags)/launch/apriltags.launch"/>
+  <include file="$(find mrsd_ros_part2)/launch/apriltags.launch"/>
 
   <!-- Startup your modified apriltag wrapper node -->
   <!-- TODO -->
